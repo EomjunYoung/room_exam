@@ -5,8 +5,8 @@ import androidx.room.*
 
 @Dao
 interface TodoDao {
-    @get:Query("SELECT * FROM Todo")
-    val getAll: LiveData<List<Todo>>
+    @Query("SELECT * FROM Todo")
+    fun getAll(): LiveData<List<Todo>>
 
     @Insert
     fun insert(todo: Todo)

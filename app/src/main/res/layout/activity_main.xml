@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="com.jsoh.room_exam.MainViewModel" />
+            type="com.example.room_exam.MainViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
