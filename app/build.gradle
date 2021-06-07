@@ -67,7 +67,7 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.2.0-alpha03"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0-alpha03"
 
-    //room을 위한 implementation(kapt관련 room만하면 에러발생)
+    //room을 위한 implementation(kapt관련 room만하면 에러발생 - 57라인)
     implementation "androidx.room:room-ktx:2.3.0"
 
 }
